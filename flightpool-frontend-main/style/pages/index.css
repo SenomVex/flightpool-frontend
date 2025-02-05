@@ -13,4 +13,21 @@ header ul{
 header .fa{
     color: var(--blue);
 }
+.hero {
+    padding: 92px 0;
+    background-image: url(../../img/flight.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
 
+}
+.hero__lead{
+    font-size: 64px;
+    margin: 0 0 32;
+    font-weight: bold;
+    letter-spacing: 14px;
+}
+.hero__desk{
+    font-size: 22px;
+}
