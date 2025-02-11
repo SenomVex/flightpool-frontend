@@ -92,22 +92,25 @@ legend {
     margin: 0 auto;
     padding: 0 16px;
 }
-:root{
-    --blue:rgba(0, 0, 251, 0.628);
-    --black:rgba(0, 0, 0, 1);
-    --white:rgba(255, 255, 255);  
-}
 
-body.light {
-    background-color:var(--white);
+:root {
+    --blue: #6B99C3;
+    --black: #0C151C;
+    --white:#E4E5EA;
 }
-body.light * {
+body.light{
+    background-color: var(--white);
+}
+body.light *{
     color: var(--black);
 }
-
-body.dark {
-background-color: var(--black);
+body.dark{
+    background-color: var(--black);
 }
-body.dark * {
+body.dark *{
     color: var(--white);
+}
+body{
+    background-color: var(--white);
+    transition: background 2s;
 }
